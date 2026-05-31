@@ -1,0 +1,70 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    background:#0f172a;
+    color:white;
+    font-family:Arial;
+    padding:20px;
+}
+
+header{
+    margin-bottom:30px;
+}
+
+h1{
+    text-align:center;
+    font-size:40px;
+}
+
+#matches{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(350px,1fr));
+    gap:20px;
+}
+
+.card{
+    background:#1e293b;
+    border-radius:15px;
+    padding:20px;
+    box-shadow:0 0 20px rgba(0,0,0,0.4);
+}
+
+.teams{
+    font-size:22px;
+    margin-bottom:15px;
+}
+
+.odds{
+    display:flex;
+    gap:15px;
+    margin-bottom:20px;
+}
+
+.odd{
+    flex:1;
+    padding:15px;
+    text-align:center;
+    border-radius:10px;
+    font-size:22px;
+    transition:0.3s;
+}
+
+.up{
+    background:#16a34a;
+}
+
+.down{
+    background:#dc2626;
+}
+
+.same{
+    background:#334155;
+}
+
+.chart-container{
+    height:200px;
+}
